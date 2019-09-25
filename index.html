@@ -234,15 +234,18 @@
 			<section class="github section" style="margin-left:5%">
 					<div class="section-inner">
 							<h2 class="heading">My GitHub contribution graph</h2>
-
-							<div class="calendar" ></div>
-
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js" style="width:40%"></script>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js" style="width:40%"></script>
-							<script src="http://ionicabizau.github.io/github-calendar/dist/github-calendar.min.js" style="width:40%"></script>
-							<script>
-									GitHubCalendar(".calendar", "dihfahsih1");
-							</script>
+								<script
+									src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+									>
+								</script>
+								<link
+							  	rel="stylesheet"href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+								/>
+								<div class="calendar">
+								</div>
+								<script>
+								new GitHubCalendar(".calendar", "Dihfahsih1");
+								</script>
 					</div>
 			</section>
 
